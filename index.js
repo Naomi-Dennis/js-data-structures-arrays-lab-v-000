@@ -18,7 +18,7 @@ function appendDriver(name){
   let tmpDrivers = drivers
 
   tmpDrivers.push(name)
-    console.log(tmpDrivers)
+    console.log(drivers)
   return tmpDrivers
 }
 function prependDriver(name){
