@@ -1,7 +1,7 @@
 // Write your solution here!
 'use strict'
 
-var drivers = undefined
+const drivers = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendDriver(name){
 
 }
