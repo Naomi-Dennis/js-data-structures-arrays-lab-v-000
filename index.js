@@ -15,11 +15,7 @@ function destructivelyRemoveFirstDriver(){
     drivers.shift()
 }
 function appendDriver(name){
-  let tmpDrivers = drivers
-
-  tmpDrivers.push(name)
-    console.log(tmpDrivers)
-  return tmpDrivers
+  return drivers
 }
 function prependDriver(name){
 
