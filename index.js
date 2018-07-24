@@ -21,7 +21,7 @@ function appendDriver(name){
 }
 function prependDriver(name){
   let tmp = drivers.slice()
-  tmp.shift(name)
+  tmp.unshift(name)
   return tmp
 }
 function removeLastDriver(){
